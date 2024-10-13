@@ -1,22 +1,18 @@
-import { Descrizione } from './Components/Descrizione';
-import { Galleria } from './Components/Galleria';
-import { Servizi } from './Components/Servizi';
-import { Contatti } from './Components/Contatti';
-import {Prenota} from './Components/Prenota'
-import { Navbar } from './Components/Navbar';
 import { Home } from './Components/Home';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import {Attivita} from './Components/Navbar/Attivita'
 
 export function App (){
   return (
-    <div>
-      <Navbar/>
-      <Home/>
-      <Descrizione />
-      <Galleria />
-      <Servizi />
-      <Prenota/>
-      <Contatti />
-    </div>
+   <>
+   <Router>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/attivita" element={<Attivita/>}/>
+    </Routes>
+   </Router>
+
+   </>
   );
 }
 
