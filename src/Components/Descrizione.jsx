@@ -1,5 +1,0 @@
-export function Descrizione() {
-    return (
-      <></>
-    )
-}
