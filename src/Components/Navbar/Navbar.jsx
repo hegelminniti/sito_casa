@@ -12,18 +12,18 @@ export function Navbar() {
 
             {/* -------------------- CREARE ROUTES PER LA NAVBAR ---------------------- */}
 
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="/attivita">Attività</Link>
-            </nav>
-            
-            {/* <div className="navLinks">
-                <div className='navHome'>Home</div>
-                <div className='navAttivita'>Attività</div>
+            <nav className="navLinks">
+                <Link to="/" className='navHome'>Home</Link>
+                <Link to="/attivita" className='navAttivita'>Attività</Link>
                 <div className='navContatti'>Contatti</div>
-                <div className='navLingua'>Lingua</div>
-                <div className='navPrenota'>PRENOTA ORA</div>
-            </div> */}
+                <div className='navLingua'>
+                    <select name="language" id="language" className='selectLanguage'>
+                        <option value="it" className='langIT'>IT</option>
+                        <option value="en" className='langEN'>EN</option>
+                    </select>
+                </div>
+                <div className='navPrenota'>PRENOTA</div>
+            </nav>
         </div>
     )
 }

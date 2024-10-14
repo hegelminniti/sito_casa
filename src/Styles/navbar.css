@@ -5,39 +5,50 @@
 }
 
 .navbar{
-    position: fixed;
     width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     gap: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .navLogo{
-    font-size: 34px;
+    font-size: 32px;
     color: #8a6b60;
     font-weight: bold;
-    border: 1px solid blue;
+   /*  border: 1px solid blue; */
 }
 
 .navLinks{
     display: flex;
-    font-size: 28px;
+    font-size: 26px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 1px solid green;
+   /*  border: 1px solid green; */
     padding: 4px;
 }
 
-.navLinks div{
+.navHome, .navAttivita, .navContatti, .navLingua, .navPrenota{
     padding: 10px 30px;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
+    text-decoration: none;
+    color: black;
+}
+
+.selectLanguage{
+    border: none;
+    font-size: 24px;
+}
+
+.langIT, .langEN{
+    font-size: 14px;
 }
 
 .navPrenota{
     background-color: #8a6b60 ;
     color: white;
     font-weight: bold;
+    border-radius: 10px;
 }
