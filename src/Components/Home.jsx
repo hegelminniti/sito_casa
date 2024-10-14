@@ -19,8 +19,10 @@ export function Home(){
                         Stella Polare
                     </div>
                     <div className="heroMainDescription">
-                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque veritatis consequuntur provident praesentium? Doloremque architecto magnam dignissimos nihil hic repudiandae?
+                       La nostra casa, situata nel cuore del paese, offre una posizione perfetta a pochi metri dalla stazione. <br /> Un&apos;oasi di comfort e comodità per esplorare tutto ciò che la zona ha da offrire.
                     </div>
+
+                    <div className='heroPrenota'>PRENOTA</div>
                 </div>
             </div>
         </div>

@@ -3,6 +3,14 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  @font-face {
+    font-family: "Raleway";
+    src: url(../../public//Fonts/Raleway-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  
   
 .heroMain{
     width: 100vw;
@@ -23,13 +31,26 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-    color: yellow;
+    color: white;
     font-size: 50px;
     display: flex;
     width: 70vw;
+    gap: 30px;
+    margin-top: 200px;
 }
 
 .heroMainDescription{
-    font-size: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway';
+}
+
+.heroPrenota{
+    background-color: #8a6b60 ;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 24px;
 }
   

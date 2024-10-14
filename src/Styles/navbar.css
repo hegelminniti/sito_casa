@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Raleway";
+    src: url(../../public//Fonts/Raleway-VariableFont_wght.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
 .navbar{
     width: 100vw;
     display: flex;
@@ -16,7 +24,7 @@
 }
 
 .navLogo{
-    font-size: 32px;
+    font-size: 26px;
     color: #8a6b60;
     font-weight: bold;
    /*  border: 1px solid blue; */
@@ -24,8 +32,8 @@
 
 .navLinks{
     display: flex;
-    font-size: 26px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-family: 'Raleway';
    /*  border: 1px solid green; */
     padding: 4px;
 }
