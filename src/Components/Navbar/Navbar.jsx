@@ -1,4 +1,5 @@
 import '../../Styles/navbar.css'
+import { BookingWidget } from './BookingWidget'
 import { Link } from 'react-router-dom'
 
 
@@ -12,7 +13,7 @@ export function Navbar() {
 
             {/* -------------------- CREARE ROUTES PER LA NAVBAR ---------------------- */}
 
-            <nav className="navLinks">
+             <nav className="navLinks">
                 <Link to="/" className='navHome'>Home</Link>
                 <Link to="/attivita" className='navAttivita'>Attività</Link>
                 <div className='navContatti'>Contatti</div>
@@ -24,6 +25,7 @@ export function Navbar() {
                 </div>
                 <div className='navPrenota'>PRENOTA</div>
             </nav>
+                <BookingWidget></BookingWidget>
         </div>
     )
 }
