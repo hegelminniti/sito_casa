@@ -3,17 +3,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 300px;
   }
   
   .carousel-content {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 300px;
+    margin-left: 50px;
   }
   
   .carousel-content img {
-   /*  width: 700px;
-    height: 300px; */
+
+    width: 300px;
     object-fit: cover;
   }
 
@@ -27,16 +30,18 @@
   .chevronImgRight {
     border: none;
     cursor: pointer;
-    width: 30px;
     height: 30px;
+    width: 30px;
   }
 
 
   .chevronImgLeft {
     border: none;
     cursor: pointer;
-    width: 30px;
     height: 30px;
+    width: 30px;
+    margin-left: 0px;
+    z-index: 100;
+    
   }
 
-  

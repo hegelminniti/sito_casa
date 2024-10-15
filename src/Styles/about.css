@@ -19,7 +19,10 @@
  */
 
  .aboutSection{
-    width: 500px;
+    display: flex;
+    width: 1000px;
+    border: 1px solid red;
+    margin-left: 20px;
  }
 
  /* .aboutCarousel{
