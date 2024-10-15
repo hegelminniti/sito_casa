@@ -1,0 +1,29 @@
+
+/* .aboutSection{
+    display: flex;
+    width: 100vw;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding: 30px;
+} */
+
+/* .aboutCarousel{
+    width: 30%;
+}
+
+.aboutCaption{
+    width: 600px;
+}
+ */
+
+ .aboutSection{
+    width: 500px;
+ }
+
+ /* .aboutCarousel{
+    width: 500px;
+ } */
+
+

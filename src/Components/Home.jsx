@@ -1,6 +1,7 @@
 import { Navbar } from "./Navbar/Navbar"
 import '../Styles/home.css'
 import '../Styles/navbar.css'
+import { About } from "./Sezione About/About"
 
 export function Home(){
     return(
@@ -11,8 +12,11 @@ export function Home(){
          <Navbar></Navbar>
         </div>
         <div className="mainContainer">
+
+            {/* --------HERO SECTION ----------- */}
+
             <div className="heroMain">
-                <img className="heroMainImg" src="../../public/Hero_Gioia_Tauro.jpg" alt="Lungomare di Gioia Tauro" />
+                <img className="heroMainImg" src="../../public/assets/Images/Gioia/HeroGioiaWave.png" alt="Lungomare di Gioia Tauro" />
 
                 <div className="heroMainText">
                     <div className="heroMainTitle">
@@ -25,7 +29,13 @@ export function Home(){
                     <div className='heroPrenota'>PRENOTA</div>
                 </div>
             </div>
+
+            {/* ---------ABOUT SECTION------------- */}
+
+            <About></About>
+
         </div>
+
         </>
     )
 }

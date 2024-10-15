@@ -1,15 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  @font-face {
-    font-family: "Raleway";
-    src: url(../../public//Fonts/Raleway-VariableFont_wght.ttf);
-    font-weight: normal;
-    font-style: normal;
-  }
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
   
   
 .heroMain{
@@ -19,13 +11,13 @@
 }
 
 .heroMainImg{
-    position: fixed;
-    width: 100vw;
+    position: relative;
+    width: 100%;
     z-index: 0;
 }
 
 .heroMainText{
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,4 +45,4 @@
     padding: 10px 20px;
     font-size: 24px;
 }
-  
+
