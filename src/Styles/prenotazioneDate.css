@@ -1,0 +1,89 @@
+/* PrenotazioneDateCustom.css */
+.rdrCalendarWrapper {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.rdrMonthAndYearWrapper {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.rdrDayNumber span {
+  color: #733a01fb; /* Colore dei numeri dei giorni */
+}
+
+.rdrDayNumber span:hover {
+  background-color: #e8f0fe;
+  border-radius: 50%;
+}
+
+.rdrSelected, .rdrStartEdge, .rdrEndEdge {
+  background-color: #733a01fb !important; /* Colore di selezione */
+  color: #fff !important;
+}
+
+.rdrInRange {
+    background-color: #765d43fb !important     ;
+}
+
+/* Cambia lo stile di hover per il numero della data del giorno */
+.rdrDayNumber span:hover {
+    background-color: #ff8c0000; /* Cambia questo colore per l'hover */
+    border-radius: 100%; /* Aggiungi un arrotondamento per un effetto a cerchio */
+    cursor: pointer; /* Cambia il cursore per indicare che è cliccabile */
+  }
+  
+
+
+
+/* .rdrDay {
+    border: 2px solid red;
+} */
+
+
+
+.rdrDayStartPreview {
+    border: 2px solid yellow;
+}
+
+.rdrDayEndPreview {
+    border: 2px solid yellow;
+}
+
+/* .rdrDayPreview {
+    border: 2px solid rgb(255, 0, 238);
+  } */
+
+  
+
+  /* .rdrDayHovered {
+    color: red;
+    border: 1px solid green;
+  } */
+  
+.rdrInRange{
+    color: green;
+    background-color: orange;
+}
+
+/* bordi che ci sono tra la data iniziale selezionata e la data finale */
+.rdrDayInPreview {
+    border: 1px solid rgb(255, 136, 0);
+}
+
+.rdrDaySelected {
+    color: red;
+}
+
+.rdrDayNumber::after {
+    background: fuchsia;
+}
+
+
+/* trattino sotto il numero del giorno odierno */
+span::after {
+    background: fuchsia !important;
+}

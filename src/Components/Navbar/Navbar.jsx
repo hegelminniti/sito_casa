@@ -1,6 +1,6 @@
 import '../../Styles/navbar.css'
-import { BookingWidget } from './BookingWidget'
 import { Link } from 'react-router-dom'
+import PrenotazioneDate from './PrenotazioneDate'
 
 
 export function Navbar() {
@@ -25,7 +25,7 @@ export function Navbar() {
                 </div>
                 <div className='navPrenota'>PRENOTA</div>
             </nav>
-                <BookingWidget></BookingWidget>
+                <PrenotazioneDate></PrenotazioneDate>
         </div>
     )
 }
